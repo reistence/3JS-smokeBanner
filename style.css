@@ -27,20 +27,11 @@
 
 h1 {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(246, 241, 241);
   font-size: 7rem;
-}
-p {
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(246, 241, 241);
-  font-size: 2rem;
-  width: 80%;
 }
 
 body {

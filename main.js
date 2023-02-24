@@ -27,7 +27,7 @@ scene.fog = new THREE.Fog(0xc0f0ff, 0.0015);
 
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setPixelRatio(window.devicePixelRatio);
-renderer.setSize(window.innerWidth, window.innerHeight * 2);
+renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 //light
